@@ -38,7 +38,10 @@ createRoutesFromElements(
          path='github'
          element={<Github/>}/>
   </Route>
-)  
+),
+  {
+    basename: '/ReactRouter', // ✅ set it here!
+  }
 )
 
 

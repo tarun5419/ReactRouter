@@ -27,5 +27,6 @@ export default Github;
 
 export const githubInfoFollowers = async () =>{
     const response = await fetch('https://api.github.com/users/hiteshchoudhary');
+    // https://github.com/tarun5419
     return response.json();
 }
