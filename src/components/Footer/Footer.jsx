@@ -80,6 +80,7 @@ export const Footer = () => {
                     </span>
                     <div className="flex mt-4 space-x-5 sm:justify-center sm:mt-0">
                         <Link to="#" className="text-gray-500 hover:text-gray-900">
+                        <a href="https://www.facebook.com/">
                             <svg
                                 className="w-4 h-4"
                                 aria-hidden="true"
@@ -93,6 +94,7 @@ export const Footer = () => {
                                     clip-rule="evenodd"
                                 />
                             </svg>
+                        </a>
                             <span className="sr-only">Facebook page</span>
                         </Link>
                         <Link to="#" className="text-gray-500">
